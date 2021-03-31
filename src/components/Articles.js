@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Articles() {
+function Articles(props) {
     return (
         <article>
-            <a href='#'>
+            <a href={ "https://reddit.com" + props.article.permalink } target="_blank">
                 <h3>
-                    Title
+                    {props.article.title}
                 </h3>
             </a>
         </article>
