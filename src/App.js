@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import Article from './components/Articles';
+import './index.css';
 
 function App() {
   const [articles, setArticles] = useState([]);
